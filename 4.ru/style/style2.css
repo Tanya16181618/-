@@ -1,0 +1,133 @@
+<style type="text/css">
+<!--
+.jjj{}
+body {
+	font: 90%/1.4 Times ;
+	text-align: justify;
+	font-variant:smal-caps;
+	font-size: small;
+	margin: 0;
+	padding: 0;
+	color: #666;
+	background-image: url(тематика.jpg);
+	background-color:#cccccc;
+}
+a img {
+	border: none;
+}
+
+
+a:link {
+	color: #42413C;
+	text-decoration: underline;
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /
+	text-decoration: none;
+}
+ul, ol, dl {
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;
+	padding-right: 15px;
+	padding-left: 15px;
+	color:#C00;
+
+}
+
+a:hover, a:active, a:focus { 
+	text-decoration: none;
+}
+.container {
+	width: 960px;
+	background-color: #fff;
+	margin: 0 auto; /* автоматическое задание величин по бокам в совокупности с шириной центрирует макет */
+	overflow: hidden;
+	border #FFC solid; /* это объявление заставляет .container видеть место окончания обтекаемых столбцов и включать их */
+}
+.sidebar1 {
+	float: left;
+	width: 160px;
+	background-color: #fff;
+	padding: 10px;
+
+}
+.content {
+
+	padding: 14px 0;
+	width: 950px;
+	
+background-color: #cccccc;
+  text-align:center;
+	margin:0px auto;
+
+}
+.content  a{
+color: white;
+	text-decoration: none;
+	padding: 15px 33px;}
+.sidebar2 {
+	float: left;
+	width: 160px;
+	background-color: #FFF;
+	padding: 10px 0;
+
+}
+
+
+.content ul, .content ol {
+	padding: 0 15px 15px 40px;
+}
+
+ .bloki {
+ 	border-color #CCC;
+ 	border-style: groove;
+ 	border-width: thin;
+	background-color:yellow;
+	border-bottom-style: groove;
+
+
+ }
+ul.nav {
+	list-style: none; /* удаляет маркер списка */
+	border-top: 1px solid #fff;
+	margin-bottom: 15px;
+}
+ul.nav li {
+	border-bottom: 1px solid #FFF; /* разделяет кнопки */
+}
+ul.nav a, ul.nav a:visited { /* группировка этих селекторов гарантирует, что ссылки будут выглядеть как кнопки даже после того, как пользователь перейдет по ним */
+	padding: 5px 5px 5px 15px;
+	display: block;
+	width: 160px;
+	text-decoration: none;
+	background-color: #FFF;
+}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* изменяет цвет текста и фона при навигации с помощью клавиатуры и мыши */
+	background-color:#FF6;
+	color: #FFF;
+}
+
+/* ~~ прочие классы float/clear ~~ */
+.fltrt {  /* этот класс можно использовать для обтекания элемента справа на странице. Обтекаемый элемент должен предшествовать элементу, с которым он должен находиться рядом на странице. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* этот класс можно использовать для обтекания элемента слева на странице. Обтекаемый элемент должен предшествовать элементу, с которым он должен находиться рядом на странице. */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* этот класс можно поместить в теге <br /> или в пустом блоке DIV в качестве конечного элемента, следующего за последним обтекаемым DIV (внутри #container), если overflow:hidden удалено в .container */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+-->
+
+</style>

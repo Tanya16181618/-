@@ -1,0 +1,38 @@
+
+.myTable {
+	border: 1px solid #8B4513;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.myTable th, td {
+	text-align: center;
+	padding: 8px;
+	border: 1px solid #8B4513;
+}
+
+form {
+	width: 500px;
+	position: relative;
+	margin: 20px auto;
+	font-size: 110%;
+	font-weight: 100;
+}
+
+legend {
+	color: #6f4e37;
+}
+
+fieldset {
+	border: 1px solid #8B4513;
+}
+
+form  label {
+	margin: 20px 0;
+}
+form label input {
+	position: absolute;
+	right: 10px;
+	width: 180px;
+	font-size: 100%;
+}
